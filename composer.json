@@ -1,0 +1,28 @@
+{
+  "name": "deepfreeze/language",
+  "description": "Language tag (Locale) Convenience Class",
+  "type": "library",
+  "keywords": [
+    "language",
+    "tag",
+    "locale",
+    "unicode",
+    "BCP-47"
+  ],
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.6.0",
+    "mockery/mockery": "~0.9.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "DeepFreeze\\Intl\\Language\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DeepFreezeTest\\Intl\\Language\\": "test/src"
+    }
+  }
+}
